@@ -45,6 +45,51 @@
   }
 }
 
+@media (max-width: 767px) {
+  #inicio .container-page > div:first-child {
+    text-align: center;
+  }
+
+  #inicio .container-page > div:first-child p,
+  #inicio .container-page > div:first-child ul {
+    justify-content: center;
+  }
+
+  #inicio .container-page > div:first-child .flex.flex-col {
+    align-items: center;
+    justify-content: center;
+  }
+
+  #sobre .container-page > div > div:last-child {
+    text-align: center;
+  }
+
+  #sobre .container-page > div > div:last-child p.mt-5,
+  #sobre .container-page > div > div:last-child ul {
+    text-align: left;
+  }
+
+  #faq .max-w-2xl {
+    text-align: center;
+  }
+
+  #diferenciais .container-page > .grid.gap-10 {
+    gap: 2rem;
+  }
+
+  footer > .container-page {
+    gap: 2.5rem;
+  }
+
+  @media (max-width: 639px) {
+    #inicio .container-page > div:first-child .flex.flex-col a,
+    section.overflow-hidden > .container-page .mt-9.flex.flex-col a {
+      width: 100%;
+      max-width: 24rem;
+    }
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
